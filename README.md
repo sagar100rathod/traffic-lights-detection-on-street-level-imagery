@@ -67,6 +67,9 @@ To match the training setup at test time and improve detection consistency:
 
 This significantly improves recall and stability on traffic videos and ensures the model detects small signals more reliably.
 
+![Traffic Light Detection Demo](inference_result/traffic_light_inference_demo.gif)
+
+
 🔸 Example Results: You can find inference visualizations in the inference_result/ folder.
 
 
@@ -78,6 +81,12 @@ This significantly improves recall and stability on traffic videos and ensures t
 
 * Handles small, context-dependent objects more effectively than naïve approaches.
 
+###### Here are the performance metrics on the validation set:
+
+*   `mAP50:` 90.3%
+*   `mAP50-95:` 53.7%
+*   `Precision:` 90.6%
+*   `Recall:` 91.1%
 
 # Summary
 
